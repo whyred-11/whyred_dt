@@ -29,7 +29,7 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 $(call inherit-product, vendor/arrow/config/common.mk)
 
 # Inherit from custom vendor
-$(call inherit-product, vendor/MiuiCamera/config.mk)
+#$(call inherit-product, vendor/MiuiCamera/config.mk)
 
 PRODUCT_NAME := arrow_whyred
 PRODUCT_BRAND := Xiaomi
@@ -50,8 +50,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.11.0.OEIMIFA:user/release-keys
 
 TARGET_VENDOR := Xiaomi
-
-#CUSTOM_BUILD_TYPE := OFFICIAL
 IS_PHONE := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
