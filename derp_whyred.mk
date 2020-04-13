@@ -29,7 +29,7 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Inherit from custom vendor
-$(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
+#$(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
 
 PRODUCT_NAME := derp_whyred
 PRODUCT_BRAND := Xiaomi
