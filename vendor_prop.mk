@@ -168,3 +168,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.procedure_bytes=SKIP \
     persist.radio.calls.on.ims=1 \
     persist.dbg.wfc_avail_ovr=1
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    vendor.bluetooth.soc=cherokee
+
