@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github"
+    "repository": "DerpFest-Devices/kernel_xiaomi_whyred",
+    "target_path": "kernel/xiaomi/whyred",
+    "branch": "ten",
+  },
+  {
+    "remote": "github",
+    "repository": "DerpFest-Devices/vendor_xiaomi_whyred",
+    "target_path": "vendor/xiaomi/whyred",
+    "branch": "ten"
+  }
+]
