@@ -28,11 +28,11 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 # Inherit from custom vendor
 $(call inherit-product-if-exist, vendor/MiuiCamera/config.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common dotOS stuff.
+$(call inherit-product, vendor/dot/config/common.mk)
 
-DEVICE_MAINTAINER := Sreekanth
-PRODUCT_NAME := arrow_whyred
+DEVICE_MAINTAINER := Mohammad Iqbal
+PRODUCT_NAME := dot_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
