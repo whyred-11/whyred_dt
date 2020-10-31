@@ -29,10 +29,10 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 $(call inherit-product-if-exist, vendor/MiuiCamera/config.mk)
 
 # Inherit some common dotOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/evolution/config/common.mk)
 
 DEVICE_MAINTAINER := Mohammad Iqbal
-PRODUCT_NAME := dot_whyred
+PRODUCT_NAME := evolution_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
@@ -55,3 +55,4 @@ IS_PHONE := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_SCREEN_DENSITY := 440
+WITH_GAPPS := true
