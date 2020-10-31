@@ -31,7 +31,7 @@ $(call inherit-product-if-exist, vendor/MiuiCamera/config.mk)
 # Inherit some common dotOS stuff.
 $(call inherit-product, vendor/evolution/config/common.mk)
 
-DEVICE_MAINTAINER := Mohammad Iqbal
+DEVICE_MAINTAINER := wonkelek
 PRODUCT_NAME := evolution_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred

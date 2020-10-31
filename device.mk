@@ -35,8 +35,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage/lineage-sdk \
-    $(LOCAL_PATH)/overlay-lineage/packages/apps/Snap
+    $(LOCAL_PATH)/overlay-lineage/lineage-sdk
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += device/xiaomi/whyred
@@ -171,8 +170,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     android.hardware.camera.provider@2.5 \
     vendor.qti.hardware.camera.device@1.0 \
-    libxml2 \
-    Snap
+    libxml2 
 
 # CNE
 PRODUCT_PACKAGES += \
